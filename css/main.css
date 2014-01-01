@@ -94,24 +94,70 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Fonts
    ========================================================================== */
 
+/* lato */
+@font-face {
+    font-family: 'lato';
+    src: url('lato-bold-webfont.eot');
+    src: url('lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-bold-webfont.woff') format('woff'),
+         url('lato-bold-webfont.ttf') format('truetype'),
+         url('lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'lato';
+    src: url('lato-light-webfont.eot');
+    src: url('lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-light-webfont.woff') format('woff'),
+         url('lato-light-webfont.ttf') format('truetype'),
+         url('lato-light-webfont.svg#latolight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'lato';
+    src: url('lato-regular-webfont.eot');
+    src: url('lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato-regular-webfont.woff') format('woff'),
+         url('lato-regular-webfont.ttf') format('truetype'),
+         url('lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+/* venera */
+@font-face {
+    font-family: 'venera';
+    src: url('venera-900-webfont.eot');
+    src: url('venera-900-webfont.eot?#iefix') format('embedded-opentype'),
+         url('venera-900-webfont.woff') format('woff'),
+         url('venera-900-webfont.ttf') format('truetype'),
+         url('venera-900-webfont.svg#venera900') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+/* ==========================================================================
+   Layouts
+   ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
+/* Constrained */
+.l-constrained {
+    max-width: 64em; /* 1024/16 */
+    padding: 0 1.25em; /* 20/16 */
+    margin: auto;
+}
+@media (max-width: 690px) { 
+    .l-constrained {
+        padding: 0;
+    }
+}
 
 /* ==========================================================================
    Helper classes
