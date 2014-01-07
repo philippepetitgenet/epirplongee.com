@@ -23,6 +23,28 @@ html {
     line-height: 1.4;
 }
 
+body {
+    background-color: #ade6fe;
+    background-image: url(../img/background.jpg);
+    background-position: left top;
+    background-repeat:no-repeat;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+ul {
+    margin: 0;
+}
+
+body,
+input,
+textarea {
+    color: #262626;
+    font-family: 'lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -147,11 +169,70 @@ textarea {
    Layouts
    ========================================================================== */
 
+/* Header */
+.l-header {
+    max-height: 9em;
+}
+.header-logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 3em ; 
+    height: 5em;
+    float: left;
+    width: 40%;
+    padding: 2em;
+    background-color: yellow;
+}
+.l-header a {
+    display: block;
+
+    text-indent: -10000px;
+}
+
+/* Nav */
+.l-nav .menu {
+    background-color: red;
+    height: 5em;
+    padding: 2em;
+    width: 50%;
+    margin-left: 20%;
+}
+.l-nav .menu li {
+    display: inline-block;
+}
+ul.l-nav {
+    display: block;
+    width: 25%;
+}
+.nav-link li {
+    float: left;
+    height: 4em;
+    padding-left: 10px;
+    border-left: 1px solid #d1d3d4;
+    line-height: 1em;
+}
+.l-nav .nav-social {
+    float: left;
+    background-color: blue;
+    height: 5em;
+}
+
+/* main */
+
 /* Constrained */
 .l-constrained {
     max-width: 64em; /* 1024/16 */
-    padding: 0 1.25em; /* 20/16 */
+    padding: 0; /* 20/16 */
     margin: auto;
+    background-color: #fff;
+    -moz-box-shadow: 0px 1px 3px 0px #c0c0c0;
+    -webkit-box-shadow: 0px 1px 3px 0px #c0c0c0;
+    -o-box-shadow: 0px 1px 3px 0px #c0c0c0;
+    box-shadow: 0px 1px 3px 0px #c0c0c0;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=180, Strength=3);
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
 }
 @media (max-width: 690px) { 
     .l-constrained {
@@ -159,6 +240,113 @@ textarea {
     }
 }
 
+/* Footer */
+footer {
+    background- color: red;
+}
+
+/* ==========================================================================
+   Modules
+   ========================================================================== */
+
+/* Push */
+.push-img {
+    border-radius: 500px;
+}
+.push-title {
+    font-size: 1.17em;
+    font-family: venera;
+    font-weight: normal;
+}
+.push-orange {
+    border-style: solid;
+    border-width:0.4em;
+    border-color: #F5720A;
+}
+.push-green {
+    border-style: solid;
+    border-width:0.4em;
+    border-color: #27C39B;
+}
+.push-olive {
+    border-style: solid;
+    border-width:0.4em;
+    border-color: #83A862;
+}
+.push-red {
+    border-style: solid;
+    border-width:0.4em;
+    border-color: #A73334;
+}
+
+/* Home */
+.home-offers {
+    text-align: center;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-color: #D7D7D7;
+    margin-top: 4em;
+}
+.home-offers p {
+    text-align: left;
+    padding-bottom: 2em;
+}
+
+/* slider */
+.flexslider {
+    margin: 0!important;
+}
+.slides li {
+    display: block;
+}
+.slides-content {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    top: 0%;
+    height: 100%;
+    margin: auto;
+    background: url(../img/slide-gradient.png) repeat-x 0 0px;
+}
+.slides h2 {
+    padding-top: 7%;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color: #FF9535;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.slides p {
+    font-size: 1.1em;
+    color:  #fff; 
+    font-weight: lighter;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    line-height: 1.3em;
+    width: 15%;
+    text-align: center;
+    background-color: #13B5C0;
+    padding: 0.4em;
+    border-radius: 0.15em;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+}
+.btn a {
+    display: inline-block;
+}
+
+/* cols */
+
+.col_2 p {
+    margin-top: 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

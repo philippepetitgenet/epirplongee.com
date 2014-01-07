@@ -18,7 +18,6 @@
         <link rel="stylesheet" href="css/flexslider.css" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
         <script src="js/jquery.flexslider-min.js"></script>
-
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -28,7 +27,7 @@
         <header class="l-header l-constrained">
             <a class="header-logo" href="index.html">EPIR école de plongée d'Ile-Rousse</a>
             <nav class="l-nav">
-                <ul>
+                <ul class="menu">
                     <li class="nav-link is-active" href="index.html">Accueil</li>
                     <li class="nav-link" href="centre.html">Le centre</li>
                     <li class="nav-link" href="sejour.html">Séjours</li>
@@ -50,80 +49,86 @@
             </nav>
         </header><!-- header-->
 
-        <div class="l-constrained l-main l-home">
+        <div class="l-constrained l-main l-home clearfix">
             <div class="flexslider">
                 <ul class="slides">
                     <li>
-                        <h2>Promo ...</h2>
-                        <p>bla bla</p>
-                        <a href="#" class="btn">En savoir plus</a>
-                        <img src="img/1.jpg" alt=""/>
+                        <div class="slides-content">
+                            <h2>Promos 2014 sur les séjours plongée</h2>
+                            <p>Profitez de nos offres sur notre large panel d’activités sub-aquatiques</p>
+                            <a href="#" class="btn">Voir les séjours</a>
+                        </div>
+                        <img src="img/doris.jpg" alt=""/>
                     </li>
                     <li>
-                        <h2>Promo ...</h2>
-                        <p>bla bla</p>
-                        <a href="#" class="btn">En savoir plus</a>
-                        <img src="img/2.jpg" alt=""/>
+                        <div class="slides-content">
+                            <h2>Promos N°2 sur les séjours individuels</h2>
+                            <p>Profitez de cette offres dès aujourd'hui</p>
+                            <a href="#" class="btn">Voir les séjours</a>
+                        </div>
+                        <img src="img/congre.jpg" alt=""/>
                     </li>
                     <li>
-                        <h2>Promo ...</h2>
-                        <p>bla bla</p>
-                        <a href="#" class="btn">En savoir plus</a>
-                        <img src="img/3.jpg" alt=""/>
+                        <div class="slides-content">
+                            <h2>Zoom sur le centre de plongée</h2>
+                            <p>découvrez l'équipe et le matériel mis à votre disposition</p>
+                            <a href="#" class="btn">Voir le centre</a>
+                        </div>
+                        <img src="img/plongee-couple.jpg" alt=""/>
                     </li>
                     <li>
-                        <h2>Promo ...</h2>
-                        <p>bla bla</p>
-                        <a href="#" class="btn">En savoir plus</a>
-                        <img src="img/4.jpg" alt=""/>
+                        <div class="slides-content">
+                            <h2>Contactez nous et reservez votre séjour</h2>
+                            <p>Profitez de nos offres sur notre large panel d’activités sub-aquatiques</p>
+                            <a href="#" class="btn">Nous contacter</a>
+                        </div>
+                        <img src="img/plongeur-bleu.jpg" alt=""/>
                     </li>
                 </ul>
             </div><!-- slider -->
-            <section class="home-offers">
+            <section class="home-offers clearfix">
                 <article class="col_4 push">
-                    <img class="push-img" src="img/4.jpg"alt="">
+                    <img class="push-img push-orange" src="img/formations-push.png"alt="les formations de l'EPIR">
                     <h3 class="push-title">Formations</h3>
-                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa. <a href="formations.html">En détail</a></p>
+                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa. <a href="formations.html"><br>En savoir plus</a></p>
                 </article>
                 <article class="col_4 push">
-                    <img class="push-img" src="img/1.jpg"alt="">
-                    <h3 class="push-title">Formations</h3>
-                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa. <a href="formations.html">En détail</a></p>
+                    <img class="push-img push-green" src="img/sejours-push.png"alt="les séjours de l'EPIR">
+                    <h3 class="push-title">Séjours</h3>
+                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa. <a href="formations.html"><br>En savoir plus</a></p>
                 </article>
                 <article class="col_4 push">
-                    <img class="push-img" src="img/2.jpg"alt="">
-                    <h3 class="push-title">Formations</h3>
-                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa. <a href="formations.html">En détail</a></p>
+                    <img class="push-img push-olive" src="img/explo-push.png"alt="les explorations de l'EPIR">
+                    <h3 class="push-title">Exploration</h3>
+                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa. <a href="formations.html"><br>En savoir plus</a></p>
                 </article>
                 <article class="col_4 push">
-                    <img class="push-img" src="img/3.jpg"alt="">
-                    <h3 class="push-title">Formations</h3>
-                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa. <a href="formations.html">En détail</a></p>
+                    <img class="push-img push-red" src="img/pro-push.png"alt="la plongée pro de l'EPIR">
+                    <h3 class="push-title">Plongée pro</h3>
+                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa. <a href="formations.html"><br>En savoir plus</a></p>
                 </article>
-                <hr>
             </section>
-            <hr>
             <section class="main-articles">
                  <article class="col_1">
-                     <div class="col_2">
-                        <h2 class="main-title">Le centre</h2>
-                        <img src="img/3.jpg"alt"">
+                    <h2 class="main-title">Le centre</h2>
+                    <div class="col_2">
+                        <img src="img/goeland.jpg"alt"un goeland sur la falaise d'Ile Rousse">
                     </div>
                     <div class="col_2">
                         <p>Situé idéalement sur le port de pèche, l’accès au Centre est d’une extrême facilité. Le parking à proximité évite tout transport de matériel.
                         La plage à 100 mètres ainsi qu’un centre nautique permet aux familles d’attendre les plongeurs en profitant des plaisirs de la mer (farniente, voile, planche à voile, jet…).
-                        Le marché typique de l’Ile Rousse ainsi que tous autres commerces sont à 10mn à pied. <a href="noustrouver.html" class="text-link">Trouvez nous facilement !</a></p>
+                        Le marché typique de l’Ile Rousse ainsi que tous autres commerces sont à 10mn à pied.<br><a href="noustrouver.html" class="text-link">Trouvez nous facilement !</a></p>
                         <i class="icon-center"></i>
                     </div>
                 </article>
                 <hr>
                 <article class="col_1">
+                    <h2 class="main-title">Ile Rousse</h2>
                     <div class="col_2">
-                        <h2 class="main-title">Ile Rousse</h2>
                         <p>Ile rousse est une commune Corse de la région de Balagne située au nord de Calvi. Profitez des eaux cristallines de la Corse pour faire de belles rencontres aquatiques. Toutes les plongées sont situées à quelques minutes de navigation du port d’Ile rousse. Si les conditions le permettent nous profiterons de la proximité de Calvi et du désert des Agriates pour l’organisation de quelques plongées.</p>
                     </div>
                     <div class="col_2">
-                        <img src="img/1.jpg"alt"">
+                        <img src="img/ile-rousse.jpg"alt"">
                     </div>
                 </article>
             </section><!-- main -->
