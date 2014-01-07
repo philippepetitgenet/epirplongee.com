@@ -20,7 +20,7 @@ textarea {
 
 html {
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 body {
@@ -72,6 +72,7 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+    clear: both;
 }
 
 /*
@@ -180,12 +181,12 @@ textarea {
     height: 5em;
     float: left;
     width: 40%;
+    margin-right: 1%;
     padding: 2em;
     background-color: yellow;
 }
 .l-header a {
     display: block;
-
     text-indent: -10000px;
 }
 
@@ -199,6 +200,7 @@ textarea {
 }
 .l-nav .menu li {
     display: inline-block;
+    float: left;
 }
 ul.l-nav {
     display: block;
@@ -218,6 +220,15 @@ ul.l-nav {
 }
 
 /* main */
+.l-main {
+    padding: 1em;
+}
+h2.main-title {
+    font-family: 'venera';
+    font-size: 1.8em;
+    color: #085768;
+    line-height: 2em;
+}
 
 /* Constrained */
 .l-constrained {
@@ -241,8 +252,21 @@ ul.l-nav {
 }
 
 /* Footer */
-footer {
-    background- color: red;
+.l-footer {
+    background-color: #7E7E7E;
+    overflow: auto;
+    clear: both;
+}
+.l-footer p {
+    line-height: 1;
+    color: #fff;
+    font-weight: normal;
+}
+.l-footer a {
+    line-height: 1;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none
 }
 
 /* ==========================================================================
@@ -255,7 +279,7 @@ footer {
 }
 .push-title {
     font-size: 1.17em;
-    font-family: venera;
+    font-family: 'venera';
     font-weight: normal;
 }
 .push-orange {
@@ -278,6 +302,11 @@ footer {
     border-width:0.4em;
     border-color: #A73334;
 }
+@media (max-width: 890px) { 
+    .push-title {
+        font-size: 1em;
+    }
+}
 
 /* Home */
 .home-offers {
@@ -291,14 +320,11 @@ footer {
     text-align: left;
     padding-bottom: 2em;
 }
+.home-offers a {
+    color: #66ACAA;
+}
+/* Slider */
 
-/* slider */
-.flexslider {
-    margin: 0!important;
-}
-.slides li {
-    display: block;
-}
 .slides-content {
     position: absolute;
     margin: auto;
@@ -325,7 +351,7 @@ footer {
     margin-top: 0;
 }
 
-/* button */
+/* Button */
 .btn {
     display: inline-block;
     line-height: 1.3em;
@@ -342,11 +368,13 @@ footer {
     display: inline-block;
 }
 
-/* cols */
+/* Cols */
 
 .col_2 p {
     margin-top: 0;
 }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
