@@ -116,9 +116,9 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* ==========================================================================
+/* ========================
    Fonts
-   ========================================================================== */
+   ========================= */
 
 /* lato */
 @font-face {
@@ -129,17 +129,6 @@ textarea {
          url('../fonts/lato/lato-bold-webfont.ttf') format('truetype'),
          url('../fonts/lato/lato-bold-webfont.svg#latobold') format('svg');
     font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'lato';
-    src: url('../fonts/lato/lato-light-webfont.eot');
-    src: url('lato-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lato/lato-light-webfont.woff') format('woff'),
-         url('../fonts/lato/lato-light-webfont.ttf') format('truetype'),
-         url('../fonts/lato/lato-light-webfont.svg#latolight') format('svg');
-    font-weight: lighter;
     font-style: normal;
 }
 
@@ -164,6 +153,9 @@ textarea {
          url('../fonts/venera/venera-900-webfont.svg#venera900') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+.f-venera {
+    font-family: 'venera', Helvetica, Arial;
 }
 
 
@@ -278,22 +270,42 @@ article.marginbottom3 {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     margin-top: 3em;
+    padding: .5em 0;
 }
 .l-footer p {
-    line-height: 1;
+    line-height: 1.2;
     color: #fff;
     font-weight: normal;
 }
 .l-footer a {
-    line-height: 1;
     color: #fff;
     font-weight: normal;
-    text-decoration: none
+    text-decoration: none;
+    display: block;
+}
+.l-footer a:hover {
+    text-decoration: underline;
+}
+.footer-valign-top {
+    margin-top: 2em;
 }
 
-/* ==========================================================================
+/* Home */
+.home-offers {
+    text-align: center;
+}
+.home-offers p {
+    text-align: left;
+    padding-bottom: 2em;
+}
+.home-offers a {
+    color: #66ACAA;
+}
+
+
+/* ===============================
    Modules
-   ========================================================================== */
+   ================================ */
 
 /* Push */
 .push-img {
@@ -328,18 +340,6 @@ article.marginbottom3 {
     .push-title {
         font-size: 1em;
     }
-}
-
-/* Home */
-.home-offers {
-    text-align: center;
-}
-.home-offers p {
-    text-align: left;
-    padding-bottom: 2em;
-}
-.home-offers a {
-    color: #66ACAA;
 }
 
 /* Slider */
@@ -403,15 +403,14 @@ article.marginbottom3 {
 }
 
 /* Cols */
-
 .col_2 p {
     margin-top: 0;
 }
 
 
-/* ==========================================================================
+/* =============================
    Helper classes
-   ========================================================================== */
+   ============================== */
 
 /*
  * Image replacement
@@ -479,18 +478,6 @@ article.marginbottom3 {
     visibility: hidden;
 }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
@@ -508,93 +495,4 @@ article.marginbottom3 {
 
 .clearfix {
     *zoom: 1;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
 }
