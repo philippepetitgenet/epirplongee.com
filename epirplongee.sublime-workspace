@@ -1,0 +1,251 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"selected_items":
+		[
+			[
+				"preg",
+				"Preferences: Settings - User"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"package use",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"package user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Preferences: Package Control Settings – Default"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/playlist.html",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/eglise.html",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/dialog.html",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/creer-compte.html",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/bible-1col.html",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/themes/default/modules.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/modules/_post.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/layout/_posts.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/layout/_filters.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/js/plugins/masonry.pkgd.min.js",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/modules/_biblenav.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/accueil.html",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/index.html",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/themes/default/modules/_playlist.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/modules/_playlist.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/layout/_article.scss",
+		"/Users/jonathanpath/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jonathanpath/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/js/topvi.js",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/modules/_icons.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/modules/_tooltip.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/layout/_main.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/tools/_helpers.scss",
+		"/Volumes/Macintosh HD/Dropbox/PRO/02-CLIENTS/PROGRESSIF MEDIA/TOPCHRETIEN.COM/TopChretien-VI/scss/modules/_player.scss",
+		"/Users/jonathanpath/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/jonathanpath/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Volumes/Macintosh HD/Dropbox/EBS/CHURCH MANAGER/DEV/application/configs/navigation.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nav-menu-more",
+			".nav-menu-more",
+			"Masonry",
+			"masonry",
+			"container",
+			"script",
+			"<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>",
+			"alert",
+			"submenuActions",
+			"showSubmenu",
+			"alert",
+			"showSub",
+			"showSy",
+			"isMenuMobile",
+			"mobile",
+			"deleteFIlter",
+			"showSu",
+			"activate_ajax_navigation_mode",
+			"do_load_more",
+			"bible-nav",
+			"genèse",
+			"col",
+			"playlist-track",
+			"is-selected",
+			"voici le ",
+			"actions",
+			"prefixer",
+			"hideSu",
+			"icon-hel",
+			"showSubmenu",
+			"tooltip",
+			"event",
+			"nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "epirplongee.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
