@@ -166,9 +166,11 @@ textarea {
     font-style: normal;
 }
 
-/* ==========================================================================
+
+/* ========================
    Layouts
-   ========================================================================== */
+   ========================= */
+
 /* Home */
 article.marginbottom3 {
     margin-bottom: 3em;
@@ -233,7 +235,11 @@ article.marginbottom3 {
     display: inline-block;
 }
 
-h2.main-title {
+/* Main */
+.l-main {
+    padding: 0 1.5em;
+}
+.main-title {
     font-family: 'venera';
     font-size: 1.8em;
     color: #085768;
