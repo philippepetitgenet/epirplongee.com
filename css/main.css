@@ -248,6 +248,9 @@ textarea {
 .main-textleft  {
     text-align: left;
 }
+.main-marginbottom3 {
+    margin-bottom: 3em;
+}
 
 /* Constrained */
 .l-constrained {
@@ -328,14 +331,12 @@ textarea {
 .home-offers a {
     color: #66ACAA;
 }
-article.marginbottom3 {
-    margin-bottom: 3em;
-}
+
 
 /* Stays */
 .stays-offers {
     text-align: center;
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
 /* ===============================
@@ -428,7 +429,6 @@ article.marginbottom3 {
 .btn {
     display: inline-block;
     line-height: 1.3em;
-    width: 15%;
     text-align: center;
     background-color: #13B5C0;
     padding: 0.4em;
@@ -560,4 +560,8 @@ article.marginbottom3 {
 
 .clearfix {
     *zoom: 1;
+}
+
+.marginbottom3 {
+    margin-bottom: 3em !important;
 }
