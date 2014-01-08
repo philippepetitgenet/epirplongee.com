@@ -245,6 +245,14 @@ article.marginbottom3 {
     font-size: 1.8em;
     color: #085768;
 }
+.main-center {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.main-textleft  {
+    text-align: left;
+}
 
 /* Constrained */
 .l-constrained {
