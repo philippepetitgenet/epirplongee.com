@@ -171,7 +171,7 @@ textarea {
     display: block;
     float: left;
     height: 9em;
-    width:229px;
+    width:276px;
     background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-position: 3em ;
@@ -242,6 +242,11 @@ textarea {
 }
 .main-center {
     width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.main-center2 {
+    width: 80%;
     margin: auto;
     text-align: center;
 }
@@ -338,6 +343,10 @@ textarea {
     text-align: center;
     margin-top: 5em;
 }
+.stays-offers p {
+    text-align: left;
+    padding-bottom: 2em;
+}
 
 /* ===============================
    Modules
@@ -351,26 +360,15 @@ textarea {
     font-size: 1.17em;
     font-family: 'venera';
     font-weight: normal;
+    color: #075760;
 }
-.push-orange {
-    border-style: solid;
-    border-width:0.4em;
-    border-color: #F5720A;
+.push-subtitle {
+    font-size: 1.17em;;
+    font-weight: lighter;
+    color: #075760;
 }
-.push-green {
-    border-style: solid;
-    border-width:0.4em;
-    border-color: #27C39B;
-}
-.push-olive {
-    border-style: solid;
-    border-width:0.4em;
-    border-color: #83A862;
-}
-.push-red {
-    border-style: solid;
-    border-width:0.4em;
-    border-color: #A73334;
+.push-text {
+    color: #7e7e7e ;
 }
 @media (max-width: 890px) {
     .push-title {
@@ -396,7 +394,7 @@ textarea {
     padding-top: 7%;
     text-transform: uppercase;
     font-family: 'venera';
-    font-size: 2em;
+    font-size: 2.2em;
     color: #FFF;
     margin-bottom: 0;
     margin-top: 0;
