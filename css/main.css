@@ -171,29 +171,33 @@ textarea {
     display: block;
     float: left;
     height: 9em;
-    width:229px;
+    width: 277px;
     background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-position: 3em ;
     text-indent: -10000px;
 }
+@media (max-width: 900px) {
+    .header-logo {
+        position: relative;
+        left: 50%;
+        margin-left: -146px;
+    }
+}
 
 /* Navigation */
 .l-nav{
     float: right;
-    width: 60%;
     height: 9em;
 }
 .nav-menu {
-    float: left;
-    margin-top: 6%;
+    margin-top: 1.8em;
     padding: 0;
-    width:94%;
-    display: inline-block;
+    width: 31em;
 }
 .nav-link {
     display: inline-block;
-    width: 29%;
+    width: 10em;
     text-transform: uppercase;
     border-left-style:solid;
     border-left-width:1px;
@@ -225,10 +229,27 @@ textarea {
 }
 .nav-social a {
     text-decoration: none;
+    margin: .2em;
 }
 .l-nav .icon {
     vertical-align: -.5em;
     margin-right: .5em;
+}
+@media (max-width: 900px) {
+    .l-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .nav-menu {
+        display: inline-block;
+    }
+    .nav-social {
+        width: 4.5em;
+        background: none;
+    }
+    .nav-link-tablet-noborder {
+        border: none;
+    }
 }
 
 /* Main */
