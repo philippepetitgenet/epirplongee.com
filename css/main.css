@@ -420,6 +420,10 @@ textarea {
 .single-bonus {
     margin-top: 2em;
 }
+.single-bonus ul {
+    padding-top: 1.1em;
+    padding-bottom: 1.1em; 
+}
 .single-bonus-good li {
     list-style-image: url(../img/good.png);
 }
