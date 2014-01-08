@@ -18,102 +18,129 @@
         <link rel="stylesheet" href="css/flexslider.css" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
         <script src="js/jquery.flexslider-min.js"></script>
-
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">Vous utilisez un navigateur <strong>obsolète</strong>. Merci de <a href="http://browsehappy.com/">mettre à jour votre navigateur</a> pour améliorer votre navigation</p>
         <![endif]-->
 
-        <header class="l-header l-constrained">
-            <a class="header-logo" href="index.html">EPIR école de plongée d'Ile-Rousse</a>
-            <nav class="l-nav">
-                <ul>
-                    <li class="nav-link" href="index.html">Accueil</li>
-                    <li class="nav-link" href="centre.html">Le centre</li>
-                    <li class="nav-link is-active" href="sejour.html">Séjours</li>
-                    <li class="nav-link" href="formations.html">Formations</li>
-                    <li class="nav-link" href="exploration.html">Exploration</li>
-                    <li class="nav-link" href="tarifs.html">Tarifs</li>
-                    <li class="nav-link" href="plongeepro.html">Plongée pro</li>
-                    <li class="nav-link" href="noustrouver.html">Nous trouver</li>
-                    <li class="nav-link" href="contact.html">Contact</li>
-                </ul>
-                <div class="nav-social">
-                    <a href="#">
-                        <i class="icon-facebook"></i>
-                    </a>
-                    <a href="#">
-                        <i class="icon-googleplus"></i>
-                    </a>
-                </div>
-            </nav>
-        </header><!-- header-->
+        <div class="l-constrained">
+            <div class="l-container">
+                <header class="l-header">
+                    <a class="header-logo" href="index.html">EPIR école de plongée d'Ile-Rousse</a>
+                    <div class="nav-social">
+                        <a href="#">
+                            <i class="icon icon-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="icon icon-googleplus"></i>
+                        </a>
+                    </div>
+                    <nav class="l-nav">
+                        <ul class="nav-menu">
+                            <li class="nav-link">
+                                <a class="nav-link-item" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link-item" href="formations.html">Formations</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link-item" href="contact.html">Plongée pro</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link-item" href="centre.html">Le centre</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link-item" href="exploration.html">Exploration</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link-item" href="noustrouver.html">Nous trouver</a>
+                            </li>
+                            <li class="nav-link is-active">
+                                <a class="nav-link-item" href="sejours.html">Séjours</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link-item" href="tarifs.html">Tarifs</a>
+                            </li>
+                            <li class="nav-link">
+                                <a class="nav-link-item" href="contact.html">
+                                    <i class="icon icon-contact-grey"></i>
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header><!-- header-->
 
-        <div class="l-constrained l-main l-home">
-            <div class="flexslider">
-                <h1>Séjours</h1>
-                <ul class="slides">
-                    <li>
-                        <img src="img/1.jpg" alt=""/>
-                    </li>
-                    <li>
-                        <img src="img/2.jpg" alt=""/>
-                    </li>
-                    <li>
-                        <img src="img/3.jpg" alt=""/>
-                    </li>
-                    <li>
-                        <img src="img/4.jpg" alt=""/>
-                    </li>
-                </ul>
-            </div><!-- slider -->
-            <div class="main-head">
-                <p class="half-center">Epir vous propose un large panel d’activités sub-aquatiques grâce à un ensemble de séjours regroupés dans trois catégories : les “séjours groupe” - les “séjours individuels” - “les “séjours pro”</p>
-            </div><!-- main-head -->
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <div class="slides-content">
+                                <h1>séjours</h1>
+                            </div>
+                            <img src="img/ile-rousse.jpg" alt=""/>
+                        </li>
+                        <li>
+                            <div class="slides-content">
+                                <h1>séjours</h1>
+                            </div>
+                            <img src="img/plongeur-bleu.jpg" alt=""/>
+                        </li>
+                    </ul>
+                </div><!-- slider -->
 
-            <section class="main-offers">
-                <article class="col_3 push">
-                    <img class="push-img" src="img/3.jpg"alt="">
-                    <h3 class="push-title">Individuels</h3>
-                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa.</p>
-                    <a href="#" class="btn">Voir les séjours</a>
-                </article>
-                <article class="col_3 push">
-                    <img class="push-img" src="img/1.jpg"alt="">
-                    <h3 class="push-title">Groupe</h3>
-                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa.</p>
-                    <a href="#" class="btn">Voir les séjours</a>
-                </article>
-                <article class="col_3 push">
-                    <img class="push-img" src="img/2.jpg"alt="">
-                    <h3 class="push-title">Pro</h3>
-                    <p>Fusce congue quam eget sem erc magna. Nullaest ornare est, ac pellentesque libero jet massa.</p>
-                    <a href="#" class="btn">Voir les séjours</a>
-                </article>
-            </section>
-            <footer class="l-footer">
-                <ul>
-                    <li class="col_4">
-                        <i class="icon-location"></i>
-                        <p>Epir :<br>Lotissement Castellaccio<br> Immeuble Bardeglini<br> BP 164 - 20220 Monticellu</p>
-                    </li>
-                    <li class="col_4">
-                        <i class="icon-legal"></i>
-                        <a href="#">Mentions légales</a>
-                    </li>
-                    <li class="col_4">
-                        <i class="icon-legal"></i>
-                        <a href="#">Photos souvenir</a>
-                    </li>
-                    <li class="col_4">
-                        <i class="icon-legal"></i>
-                        <a href="#">welcome@epirplongee.com<br>06 81 97 86 82</a>
-                    </li>
-                </ul>
-            </footer>
+                <div class="l-stays l-main clearfix container">
+                    <hr class="col_1"/>
+                    <section class="stays-offers clearfix row">
+                        <article class="col_3 push">
+                            <a href="#">
+                                <img class="push-img" src="img/sejour-individuel.png"alt="les séjours de l'EPIR">
+                            </a>
+                            <h3 class="push-title">individuel</h3>
+                            <p>Profiter de nos séjours clefs en main pour profiter, en plus de la plongée, des richesses naturelles et culturelles de notre belle région de Balagne en Corse. En couple ou en famille, nos séjours s’adaptent également selon vos priorités et vos intérêts !<a href="sejours-type-individuel.html"><br>voir les séjours</a></p>
+                        </article>
+                        <article class="col_3 push">
+                            <a href="#">
+                                <img class="push-img " src="img/sejour-groupe.png"alt="les explorations de l'EPIR">
+                                </a>
+                            <h3 class="push-title">Groupe</h3>
+                            <p>Soucieux d’accueillir votre groupe dans des conditions optimales, nous vous proposons différentes formules pour votre projet de séjours plongée groupe à Ile Rousse en Corse. Nos propositions sont modulables selon vos priorités et envies.<a href="sejours-type-groupe.html"><br>voir les séjours</a></p>
+                        </article>
+                        <article class="col_3 push">
+                            <a href="#">
+                                <img class="push-img" src="img/sejour-pro.png"alt="les séjours de l'EPIR">
+                            </a>
+                            <h3 class="push-title">pro</h3>
+                            <p>Pour faciliter votre séjour en Corse lors de la formation de Scaphandrier Classe 1B ou Classe 2B, l’EPIR s’occupe de tout organiser (hébergement, restauration, formation) pour votre propre confort.<a href="contact.html"><br>voir les séjours</a></p>
+                        </article>
+                    </section>
+                </div><!-- .l-main -->
 
-        </div><!-- .l-constrained l-main -->
+                <footer class="l-footer clearfix">
+                    <ul>
+                        <li class="col_4">
+                            <i class="icon-location"></i>
+                            <p><span class="f-venera">Epir</span> :<br>Lotissement Castellaccio<br> Immeuble Bardeglini<br> BP 164 - 20220 Monticellu</p>
+                        </li>
+                        <li class="col_4 footer-valign-top">
+                            <i class="icon-legal"></i>
+                            <a href="#">Mentions légales</a>
+                        </li>
+                        <li class="col_4 footer-valign-top">
+                            <i class="icon-legal"></i>
+                            <a href="#">Photos souvenir</a>
+                        </li>
+                        <li class="col_4 footer-valign-top">
+                                <i class="icon icon-contact"></i>
+                            <span class="footer-contact">
+                                <a href="mailto:welcome@epirplongee.com">welcome@epirplongee.com</a><br /><a href="tel:06 81 97 86 82">06 81 97 86 82</a>
+                            </span>
+                        </li>
+                    </ul>
+                </footer>
+            </div><!-- .l-container -->
+        </div><!-- .l-constrained -->
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
