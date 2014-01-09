@@ -1,7 +1,7 @@
 <?php
 
 $destinataire = 'petitgenetphilippe@yahoo.fr';
-$objet .= "\n" . 'demande de renseignement contact-epirplongee.com';
+$objet .= "\n" . 'inscription à un séjour inscription-epirplongee.com';
 
 
 $headers = 'from: ' . $_POST['expediteur'] ."\n";
@@ -12,9 +12,15 @@ $headers .= 'Content-Transfer-Encoding: 8bit';
 
 $message .= "\n" . 'nom : ' . $_POST['nom'];
 $message .= "\n" . 'prenom : ' . $_POST['prenom'];
+$message .= "\n" . 'date de naissance : ' . $_POST['birtday'];
+$message .= "\n" . 'rue : ' . $_POST['adress'];
+$message .= "\n" . 'ville : ' . $_POST['city'];
+$message .= "\n" . 'code postal : ' . $_POST['code'];
+$message .= "\n" . 'message : ' . $_POST['message'];
 $message .= "\n" . 'expediteur : ' . $_POST['expediteur'];
 $message .= "\n" . 'telephone : ' . $_POST['tel'];
-$message .= "\n" . 'message : ' . $_POST['message'];
+$message .= "\n" . 'sejour choisi : ' . $_POST['stay'];
+$message .= "\n" . 'certificat ok : ' . $_POST['certificate'];
 
 
 if(mail($destinataire,$objet,$message,$headers))

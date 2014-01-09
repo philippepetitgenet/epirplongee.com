@@ -215,6 +215,27 @@ textarea {
 .contact-nb {
     color: #adadad;
 }
+input.l-contact-input-inline {
+    display: inline;
+    margin: 0 1em 0 1em;
+    height: auto;
+    width: auto;
+    text-align: left;
+}
+.l-contact h2.main-subtitle {
+    margin-bottom: 1em;
+    margin-top: 3em;
+}
+.l-contact hr {
+    margin-bottom: 2em;
+    margin-top: 2.5em;
+}
+.l-contact form {
+    text-align: left;
+}
+.l-contact input.btn {
+    display: block;
+}
 
 /* Header */
 .l-header {

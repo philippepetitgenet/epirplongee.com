@@ -53,10 +53,10 @@
                             <li class="nav-link">
                                 <a class="nav-link-item" href="#">Exploration</a>
                             </li>
-                            <li class="nav-link is-active">
+                            <li class="nav-link">
                                 <a class="nav-link-item" href="noustrouver.html">Nous trouver</a>
                             </li>
-                            <li class="nav-link nav-link-tablet-noborder">
+                            <li class="nav-link is-active nav-link-tablet-noborder">
                                 <a class="nav-link-item" href="sejours.html">Séjours</a>
                             </li>
                             <li class="nav-link">
@@ -72,20 +72,45 @@
                     </nav>
                 </header><!-- header-->
 
-                <div class="flexslider">
-                            <img class="slides" src="img/map.jpg" alt=""/>
-                </div><!-- slider -->
-
-                <div class="l-home l-main clearfix container">
-                    <div class="main-center">
-                        <h1 class="main-title">Nous trouver</h1>
-                        <p class="main-textleft">Le centre de plongée est extrèmement simple à trouver: Il est idéalement situé sur le port de pêche. Le parking à proximité évite tout transport de matériel.<br></p>
-                        <p class="main-textleft"><b>Ecole de plongée d'Ile Rousse - Lotissement Castellaccio - Immeuble Bardéglini - 20220 Ile Rousse - 06 81 97 86 82
-                        </b></p>
+                <div class="l-contact l-main clearfix container">
+                    <div class= "col_1 contact-background">
+                        <div class="main-center">
+                        <h1 class="form-tittle">inscription</h1>
+                        <div class="contact-social">
+                            <i class="icon icon-social-big"></i>
+                        </div>
+                            <form action="form/envoi-form-inscription.php" method="post" ENCTYPE=\"multipart/form-data\" name="envoi-form" id="formulaire">
+                                <label for="firstname">Nom* </label>
+                                <input type="text" required name="nom" id="nom">
+                                <label for="name">Prenom* </label>
+                                <input type="text" required name="prenom" id="prenom">
+                                <label for="birthday">Date de naissance* </label>
+                                <input type="date" required name="birthday" id="birthday">
+                                <label for="firstname">Adresse* </label>
+                                <input type="text" required name="adress" id="adress">    
+                                <label for="city">Ville* </label>
+                                <input type="text" required name="city" id="city">
+                                <label for="code">Code postale* </label>
+                                <input type="number" required name="code" id="code">
+                                <label for="firstname">E-mail* </label>
+                                <input type="email" required name="expediteur" id="expediteur">
+                                <label for="firstname">Téléphone*</label>
+                                <input type='tel' required name="tel" id="tel">
+                                <h2 class="main-subtitle">Choisissez votre séjour :</h2>
+                                <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-groupe1"><pclass="contact-inline">Séjour GROUPE 1</p>
+                                <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-groupe2"><pclass="contact-inline">Séjour GROUPE 2</p>
+                                <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-individuel1"><pclass="contact-inline">Séjour INDIVIDUEL 1</p>
+                                <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-individuel2"><pclass="contact-inline">Séjour INDIVIDUEL 2</p>
+                                <hr />
+                                <input required class="l-contact-input-inline" type="checkbox" name="certificate" value="certificate"><pclass="contact-inline">Je reconnais avoir pris connaissance des conditions particulières de ventes, et confirme mon inscription et celles des personnes mentionnées dans ce formulaire.</p>
+                                <input class="btn" type="submit" name="envoyer" id="envoyer" value="GO !">
+                                <p class="contact-nb">Une copie du formulaire vous sera envoyée après validation</p>
+                            </form>
+                        </div>
                     </div>
                 </div><!-- .l-main -->
 
-                <footer class="l-footer clearfix">
+                <footer class="l-footer clearfix margintop0">
                     <ul>
                         <li class="col_4">
                             <i class="icon-location"></i>
