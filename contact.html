@@ -72,76 +72,32 @@
                     </nav>
                 </header><!-- header-->
 
-                <div class="l-home l-main clearfix container">
-
-                    <section class="home-offers clearfix row">
-                        <article class="col_4 push">
-                            <div class="main-opacity">
-                                <a href="sejours.html">
-                                    <img class="push-img" src="img/eglise-ile-rousse.png"alt="les séjours de l'EPIR">
-                                </a>
-                            </div>
-                            <h3 class="push-title">Séjours</h3>
-                            <p>Pour faciliter l’organisation de votre séjour plongée à Ile Rousse, profitez de nos offres clefs en main pour un maximum de confort et de facilités. <a href="sejours.html"><br>En savoir plus</a></p>
-                        </article>
-                        <article class="col_4 push">
-                            <div class="main-opacity">
-                                <a href="#">
-                                    <img class="push-img " src="img/exploration.png"alt="les explorations de l'EPIR">
-                                </a>
-                            </div>    
-                            <h3 class="push-title">Exploration</h3>
-                            <p>Bénéficiant très souvent d’une visibilité extraordinaire, les plongées proposées parmi celles d’Ile Rousse jusqu’à Calvi laissent un souvenir mémorable !<a href="formations.html"><br>En savoir plus</a></p>
-                        </article>
-                        <article class="col_4 push">
-                            <div class="main-opacity">
-                                <a href="#">
-                                    <img class="push-img" src="img/formations.png"alt="les formations de l'EPIR">
-                                </a>
-                            </div>
-                            <h3 class="push-title">Formations</h3>
-                            <p>Enseignant les 2 systèmes de formations les plus répandus au monde, laissez-vous conseiller par l ‘équipe de l’Ecole de Plongée d’Ile Rousse pour faire votre choix. <a href="formations.html"><br>En savoir plus</a></p>
-                        </article>
-                        <article class="col_4 push">
-                            <div class="main-opacity">
-                                <a href="#">
-                                    <img class="push-img" src="img/plongee-pro.png"alt="la plongée pro de l'EPIR">
-                                </a>
-                            </div>
-                            <h3 class="push-title">Plongée pro</h3>
-                            <p>Vous souhaitez passer votre qualification Classe 1B ou Classe 2B en Corse à Ile Rousse ? Notre centre agréé par le ministère du Travail<a href="formations.html"><br>En savoir plus</a></p>
-                        </article>
-                        <hr class="col_1" />
-                    </section>
-                    <section class="main-articles">
-                         <article class="marginbottom3 row">
-                            <div class="col_1">
-                                <h2 class="main-title">Le centre</h2>
-                            </div>
-                            <div class="col_2">
-                                <img src="img/goeland.jpg"alt"un goeland sur la falaise d'Ile Rousse">
-                            </div>
-                            <div class="col_2">
-                                <p>Situé idéalement sur le port de pêche, l’accès au centre est d’une extrême facilité. Le parking à proximité évite tout transport de matériel. La plage à 100 mètres ainsi qu’un centre nautique permet aux familles d’attendre les plongeurs en profitant des plaisirs de la mer (farniente, voile, planche à voile, jet…). Le marché typique de l’Ile Rousse ainsi que tous les autres commerces sont à 10mn à pied.<br><a href="noustrouver.html" class="main-link">Trouvez nous facilement !</a></p>
-                                <div class="text-center"><i class="icon icon-center"></i></div>
-                            </div>
-                        </article>
-                        <hr class="col_1" />
-                        <article class="marginbottom3">
-                            <div class="col_1">
-                                <h2 class="main-title">Ile Rousse</h2>
-                            </div>
-                            <div class="col_2">
-                                <p>Ile rousse est une commune Corse de la région de Balagne située au nord de Calvi. Profitez des eaux cristallines de la Corse pour faire de belles rencontres aquatiques. Toutes les plongées sont situées à quelques minutes de navigation du port d’Ile rousse. Si les conditions le permettent nous profiterons de la proximité de Calvi et du désert des Agriates pour l’organisation de quelques plongées.</p>
-                            </div>
-                            <div class="col_2">
-                                <img src="img/ile-rousse-pietra.jpg"alt"">
-                            </div>
-                        </article>
-                    </section><!-- .main-articles -->
+                <div class="l-contact l-main clearfix container">
+                    <div class= "col_1 contact-background">
+                        <div class="main-center">
+                        <h1 class="form-tittle">Contact</h1>
+                        <div class="contact-social">
+                            <i class="icon icon-social-big"></i>
+                        </div>
+                            <form action="form/envoi-form.php" method="post" ENCTYPE=\"multipart/form-data\" name="envoi-form" id="formulaire">
+                                <label for="firstname">Nom* </label>
+                                <input type="text" required name="nom" id="nom">
+                                <label for="name">Prenom* </label>
+                                <input type="text" required name="prenom" id="prenom">
+                                <label for="firstname">E-mail* </label>
+                                <input type="email" required name="expediteur" id="expediteur">
+                                <label for="firstname">Téléphone*</label>
+                                <input type='tel' required name="tel" id="tel">
+                                <label for="message">Message*</label>
+                                <textarea <rows="14" id="message" required name="message" cols="32"></textarea>
+                                <input class="btn" type="submit" name="envoyer" id="envoyer" value="GO !">
+                                <p class="contact-nb">Une copie du formulaire vous sera envoyée après validation</p>
+                            </form>
+                        </div>
+                    </div>
                 </div><!-- .l-main -->
 
-                <footer class="l-footer clearfix">
+                <footer class="l-footer clearfix margintop0">
                     <ul>
                         <li class="col_4">
                             <i class="icon-location"></i>
