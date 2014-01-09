@@ -211,6 +211,10 @@ textarea {
     color: #828282;
     text-decoration: none;
     display: block;
+    -webkit-transition:color 250ms ease-out; //transition webkit
+    -moz-transition:color 250ms ease-out; //transition mozilla
+    -o-transition:color 250ms ease-out; //transition opera
+    transition:color 250ms ease-out; //syntaxe d'avenir
 }
 .is-active .nav-link-item,
  .is-active .nav-link-item:hover {
@@ -230,6 +234,13 @@ textarea {
 .nav-social a {
     text-decoration: none;
     margin: .2em;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+.nav-social a:hover {
+    opacity: 0.5;
 }
 .l-nav .icon {
     vertical-align: -.5em;
@@ -446,6 +457,15 @@ textarea {
 /* Push */
 .push-img {
     border-radius: 500px;
+}
+.main-opacity a {
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+.main-opacity a:hover {
+    opacity: 0.5;
 }
 .push-title {
     font-size: 1.17em;
