@@ -211,10 +211,10 @@ textarea {
     color: #828282;
     text-decoration: none;
     display: block;
-    -webkit-transition:color 250ms ease-out; //transition webkit
-    -moz-transition:color 250ms ease-out; //transition mozilla
-    -o-transition:color 250ms ease-out; //transition opera
-    transition:color 250ms ease-out; //syntaxe d'avenir
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out; 
+    -o-transition: 0.3s ease-in-out; 
+    transition: 0.3s ease-in-out; 
 }
 .is-active .nav-link-item,
  .is-active .nav-link-item:hover {
@@ -591,7 +591,7 @@ textarea {
 .icon-googleplus {
     background-position: 0 -20px;
     width: 26px;
-    height: 26px;;
+    height: 26px;
 }
 .icon-contact-grey {
     background-position: -58px -24px;
