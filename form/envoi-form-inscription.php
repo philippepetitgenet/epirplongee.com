@@ -65,25 +65,25 @@ if(mail($destinataire,$objet,$message,$headers))
                     <nav class="l-nav">
                         <ul class="nav-menu">
                             <li class="nav-link nav-link-tablet-noborder">
-                                <a class="nav-link-item " href="index.html">Accueil</a>
+                                <a class="nav-link-item " href="../index.html">Accueil</a>
                             </li>
                             <li class="nav-link">
                                 <a class="nav-link-item" href="#">Formations</a>
                             </li>
                             <li class="nav-link">
-                                <a class="nav-link-item" href="#">Plongee pro</a>
+                                <a class="nav-link-item" href="../contact.html">Plongée pro</a>
                             </li>
                             <li class="nav-link nav-link-tablet-noborder">
                                 <a class="nav-link-item" href="#">Le centre</a>
                             </li>
                             <li class="nav-link">
-                                <a class="nav-link-item" href="#">Exploration</a>
+                                <a class="nav-link-item" href="exploration.html">Exploration</a>
                             </li>
                             <li class="nav-link">
                                 <a class="nav-link-item" href="noustrouver.html">Nous trouver</a>
                             </li>
                             <li class="nav-link nav-link-tablet-noborder">
-                                <a class="nav-link-item" href="sejours.html">Sejours</a>
+                                <a class="nav-link-item" href="sejours.html">Séjours</a>
                             </li>
                             <li class="nav-link">
                                 <a class="nav-link-item" href="#">Tarifs</a>
@@ -98,7 +98,7 @@ if(mail($destinataire,$objet,$message,$headers))
                     </nav>
                 </header><!-- header-->
 
-                <div class="l-contact l-main clearfix container">
+                <div class="l-validate l-main clearfix container">
                     <div class= "col_1">
                         <div class="main-center">
                         <h1 class="main-title">Votre message est bien parti !</h1>

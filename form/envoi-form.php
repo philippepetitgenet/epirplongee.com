@@ -27,7 +27,7 @@ if(mail($destinataire,$objet,$message,$headers))
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>EPIR école de plongée d'Ile-Rousse</title>
+        <title>EPIR ecole de plongee d'Ile-Rousse</title>
         <meta name="description" content="Centre de plongée d'Ile-Rousse en Haute Corse en région de Balagne">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 

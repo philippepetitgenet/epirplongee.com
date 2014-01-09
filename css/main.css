@@ -162,6 +162,11 @@ textarea {
 /* ========================
    Layouts
    ========================= */
+/* price */
+.l-price {
+    background-color: #f7f7f7;
+}
+
 /* contact */
 .l-contact {
     background-color: #f8f5f8;
@@ -688,9 +693,9 @@ input.l-contact-input-inline {
     height: 74px;
 }
 .icon-center {
-    background-position: -79px 1px;
+    background-position: -79px 31px;
     width: 272px;
-    height: 74px;
+    height: 134px;
 }
 
 
@@ -792,6 +797,9 @@ input.l-contact-input-inline {
 }
 .marginbottom3 {
     margin-bottom: 3em !important;
+}
+.marginbottom5 {
+    margin-bottom: 5em !important;
 }
 .margintop0 {
     margin-top: 0em !important;
