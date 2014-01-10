@@ -1,7 +1,7 @@
 <?php
 
-$destinataire = 'petitgenetphilippe@yahoo.fr';
-$objet .= "\n" . 'demande de renseignement contact-epirplongee.com';
+$destinataire = 'welcome@epirplongee.com';
+$objet .= "\n" . 'demande de renseignement via le site epirplongee.com';
 
 
 $headers = 'from: ' . $_POST['expediteur'] ."\n";

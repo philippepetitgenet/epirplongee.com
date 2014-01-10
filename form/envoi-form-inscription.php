@@ -1,7 +1,7 @@
 <?php
 
-$destinataire = 'petitgenetphilippe@yahoo.fr';
-$objet .= "\n" . 'inscription à un séjour inscription-epirplongee.com';
+$destinataire = 'resa@epirplongee.com';
+$objet .= "\n" . 'inscription à un séjour via le site epirplongee.com';
 
 
 $headers = 'from: ' . $_POST['expediteur'] ."\n";
@@ -12,15 +12,14 @@ $headers .= 'Content-Transfer-Encoding: 8bit';
 
 $message .= "\n" . 'nom : ' . $_POST['nom'];
 $message .= "\n" . 'prenom : ' . $_POST['prenom'];
-$message .= "\n" . 'date de naissance : ' . $_POST['birtday'];
+$message .= "\n" . 'date de naissance : ' . $_POST['birthday'];
 $message .= "\n" . 'rue : ' . $_POST['adress'];
 $message .= "\n" . 'ville : ' . $_POST['city'];
 $message .= "\n" . 'code postal : ' . $_POST['code'];
-$message .= "\n" . 'message : ' . $_POST['message'];
 $message .= "\n" . 'expediteur : ' . $_POST['expediteur'];
 $message .= "\n" . 'telephone : ' . $_POST['tel'];
 $message .= "\n" . 'sejour choisi : ' . $_POST['stay'];
-$message .= "\n" . 'certificat ok : ' . $_POST['certificate'];
+$message .= "\n" . 'certificat cgv ok : ' . $_POST['certificate'];
 
 
 if(mail($destinataire,$objet,$message,$headers))
