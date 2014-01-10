@@ -697,7 +697,26 @@ input.l-contact-input-inline {
     width: 272px;
     height: 134px;
 }
-
+.icon-location {
+    background-position: -638px 20px;
+    width: 29px;
+    height: 94px;
+}
+.icon-legal {
+    background-position: -638px 20px;
+    width: 29px;
+    height: 94px;
+}
+.icon-memory {
+    background-position: -638px 20px;
+    width: 29px;
+    height: 94px;
+}
+.icon-contact {
+    background-position: -638px 20px;
+    width: 29px;
+    height: 94px;
+}
 
 /* =============================
    Helper classes
