@@ -26,7 +26,7 @@ html {
 body {
     background-color: #ade6fe;
     background-image: url(../img/background.jpg);
-    background-position: left top;
+    background-position: center top;
     background-repeat:no-repeat;
     padding-top: 4.5em;
     padding-bottom: 4.5em;
@@ -158,10 +158,34 @@ textarea {
     font-family: 'venera', Helvetica, Arial;
 }
 
-
 /* ========================
    Layouts
    ========================= */
+
+/* find us */
+.l-findus .l-iframe-responsive-wrapper {
+    margin-bottom: 2.5em;
+}
+   
+/* iframe */
+.l-iframe-responsive-wrapper        {
+    position: relative;
+}
+
+.l-iframe-responsive-wrapper .l-iframe-ratio {
+    display: block;
+    width: 100%;
+    height: 401px;
+}
+
+.l-iframe-responsive-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /* price */
 .l-price {
     background-color: #f7f7f7;
@@ -440,13 +464,31 @@ input.l-contact-input-inline {
     margin-top: 2em;
 }
 .footer-contact {
-    display: inline-block;
+    display: block;
 }
 .l-footer .icon-contact {
     vertical-align: .5em;
     margin-right: .5em;
 }
+.l-footer .footer-contact {
+    margin-left: 20px;
+}
+.l-footer .icon-location {
+    float: left;
+}
+.l-footer .icon-contact {
+    float: left;
+}
+.l-footer .icon-legal {
+    float: left;
+}
+.l-footer .icon-memory {
+    float: left;
+}
+.l-footer-location, .l-footer-memory, .l-footer-legal {
+    margin-left: 9px;
 
+}
 /* Home */
 .home-offers {
     text-align: center;
@@ -699,23 +741,26 @@ input.l-contact-input-inline {
 }
 .icon-location {
     background-position: -638px 20px;
-    width: 29px;
-    height: 94px;
+    width: 25px;
+    height: 75px;
 }
 .icon-legal {
-    background-position: -638px 20px;
-    width: 29px;
-    height: 94px;
+    background-position: -667px -16px;
+    width: 38px;
+    height: 56px;
+    margin-left: 35px;
 }
 .icon-memory {
-    background-position: -638px 20px;
+    background-position: -740px -15px;
     width: 29px;
     height: 94px;
+    margin-left: 20px;
 }
 .icon-contact {
-    background-position: -638px 20px;
-    width: 29px;
-    height: 94px;
+    background-position: -705px -16px;
+    width: 32px;
+    height: 44px;
+    margin-left: -15px;
 }
 
 /* =============================
