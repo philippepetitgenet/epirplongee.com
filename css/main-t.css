@@ -300,7 +300,6 @@ input.l-contact-input-inline {
 }
 .nav-link {
     display: inline-block;
-    *display: inline; /* IE7 and below */ 
     width: 10em;
     text-transform: uppercase;
     border-left-style:solid;
@@ -438,7 +437,6 @@ input.l-contact-input-inline {
     -webkit-border-radius: 2px;
     border-radius: 2px;
     background-color: #fff;
-    behavior: url(../js/PIE.htc);
 }
 
 /* Footer */
@@ -454,7 +452,6 @@ input.l-contact-input-inline {
     border-bottom-left-radius: 3px;
     margin-top: 3em;
     padding: .5em 2em;
-    behavior: url(../js/PIE.htc);
 }
 .l-footer ul {
     margin: 0;
@@ -563,10 +560,6 @@ input.l-contact-input-inline {
     font-size: 1.1em;
     font-weight: bold;
 }
-.single-title-item {
-    font-size: 1.1em;
-    font-weight: bold;
-}
 .single-bonus {
     margin-top: 2em;
 }
@@ -609,7 +602,7 @@ input.l-contact-input-inline {
 /* contact */
 
 /* form */
-.form-title {
+.form-tittle {
     padding-top: 7%;
     text-transform: uppercase;
     font-family: 'venera';
@@ -620,7 +613,6 @@ input.l-contact-input-inline {
 /* Push */
 .push-img {
     border-radius: 500px;
-    behavior: url(../js/PIE.htc);
 }
 .push-stays {
     border-width: 7px;
@@ -727,7 +719,6 @@ input.l-contact-input-inline {
     font-weight: normal;
     text-decoration: none;
     color: #fff;
-    behavior: url(../js/PIE.htc);
 }
 .btn:hover {
     background-color: #0ba4ae;
@@ -738,13 +729,6 @@ input.l-contact-input-inline {
 @media (max-width: 815px) {
     .btn {
         font-size: 0.8em;
-    }
-    .slides-content p, .slides-content h2 {
-        width: 50%;
-        margin: auto;
-    }
-    .slides-content p {
-        margin-bottom: 1em;
     }
 }
 
