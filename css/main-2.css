@@ -190,6 +190,27 @@ textarea {
 .l-price {
     background-color: #f7f7f7;
 }
+.l-price table {
+    width: 100%;
+    font-weight: bold; 
+}
+.l-price td {
+    padding: 0 2% 0 2%;
+}
+.l-price th {
+    text-align: left;
+    font-family: 'venera';
+    font-size: 1.7em;
+    color: #085768;
+}
+.l-price .table-title {
+    color: white;
+    font-size: 1em;
+    padding: 0.5% 1% 0.5% 1%;
+    text-transform: uppercase;
+    background-color: gray;
+    font-weight: normal;
+}
 
 /* contact */
 .l-contact {
@@ -610,12 +631,17 @@ input.l-contact-input-inline {
     margin-bottom: -3em;
 }
 /* ===============================
-   Modules
-   ================================ */
-   /* contact */
+ Modules
+ ================================ */
 
-   /* form */
-   .form-title {
+ /* table */
+ .table-subtitle {
+    background-color: #7E7E7E;
+ }
+
+
+ /* form */
+ .form-title {
     padding-top: 7%;
     text-transform: uppercase;
     font-family: 'venera';
