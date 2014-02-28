@@ -446,7 +446,7 @@ input.l-contact-input-inline {
     text-align: center;
 }
 .main-center {
-    width: 50%;
+    width: 99%;
     margin: auto;
     text-align: center;
 }
@@ -468,7 +468,11 @@ input.l-contact-input-inline {
 .main-opacity a:hover {
     opacity: 0.5;
 }
-
+@media (max-width: 399px) {
+    .l-contact .main-center {
+    font-size: 0.8em;
+    }
+}
 /* Constrained */
 .l-constrained {
     max-width: 64em; /* 1024/16 */
@@ -1055,6 +1059,9 @@ article.push {
 }
 .marginbottom3 {
     margin-bottom: 3em !important;
+}
+.marginbottom-2 {
+    margin-bottom: -2em !important;
 }
 .marginbottom5 {
     margin-bottom: 5em !important;
