@@ -168,10 +168,18 @@ textarea {
    Layouts
    ========================= */
 
-   /* find us */
-   .l-findus .l-iframe-responsive-wrapper {
-    margin-bottom: 2.5em;
+/* training */
+.l-training .training-detail li {
+    font-weight: bold;
+    margin-left: -1em;
+}
+.l-learning article {
+    margin-bottom: 2em;
+}
 
+/* find us */
+.l-findus .l-iframe-responsive-wrapper {
+margin-bottom: 2.5em;
 }
 
 /* iframe */
@@ -477,6 +485,9 @@ input.l-contact-input-inline {
 .main-opacity a:hover {
     opacity: 0.5;
 }
+.main-head-img {
+    margin: 2em 0 2em 0;
+}
 @media (max-width: 399px) {
     .l-contact .main-center {
         font-size: 0.8em;
@@ -492,6 +503,10 @@ input.l-contact-input-inline {
     .l-constrained {
         padding: 0;
     }
+    .l-main .main-img-full {
+        display: none;
+    }
+
 }
 /* Container */
 .l-container {
@@ -568,6 +583,7 @@ input.l-contact-input-inline {
 }
 .l-footer-location, .l-footer-memory, .l-footer-legal {
     margin-left: 9px;
+    padding-top: .8em;
 }
 @media (max-width: 1063px) {
     .l-footer .icon-legal, .l-footer .icon-memory {
@@ -617,8 +633,8 @@ input.l-contact-input-inline {
 }
 
 /* Stays */
-.l-constrained .l-learning {
-    margin: 45% 0 0;
+.l-constrained .l-learning .l-main{
+    margin: -9% 0 0;
 }
 .stays-offers {
     text-align: center;
@@ -792,14 +808,15 @@ article.push {
     }
 }
 
-/* Slider */
+/* Slider Basic */
+
 .flexslider {
     clear: both;
 }
 .l-findus.flexslider {
     border-radius: 3px;
 }
-.slides-content {
+.slides-content-index {
     position: absolute;
     margin: auto;
     text-align: center;
@@ -808,6 +825,15 @@ article.push {
     height: 100%;
     margin: auto;
     background: url(../img/slide-gradient.png) repeat-x 0 0px;
+}
+.slider-gradient {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: auto;
 }
 .slides-content-mobile {
     display: none;
@@ -818,18 +844,18 @@ article.push {
     margin-bottom: 0;
     margin-top: 0;
 }
-.slides .main-tittle-container {
+.flexslider .main-tittle-container {
     width: 100%;
-    z-index: 1000;
     position: absolute;
     text-align: center;
 }
-.slides h1 {
+.flexslider h1 {
     padding-top: 7%;
+    z-index: 1000;
     text-transform: uppercase;
     font-family: 'venera';
     font-size: 2.2em;
-    color: white;
+    color: #fff;
     display: inline-block;
     margin: 0;
 }
@@ -923,7 +949,7 @@ article.push {
 .col_2 p {
     margin-top: 1em;
 }
-
+}
 /* Icons */
 .icon {
     display: inline-block;
