@@ -168,13 +168,46 @@ textarea {
    Layouts
    ========================= */
 
+/* pro */
+
+.pro-funding .documents {
+    padding: 2em 0 2em 0;   
+}
+.pro-funding hr {
+    padding-top: 2em
+}
+
+/* home */
+
+.l-home .col_2 p , .l-center .col_2 p {
+    margin-top: 0;
+}
+.l-home .col_2 img , .l-center .col_2 img {
+    margin-bottom: 1em;
+}
+
 /* training */
 .l-training .training-detail li {
-    font-weight: bold;
     margin-left: -1em;
 }
 .l-learning article {
     margin-bottom: 2em;
+}
+.l-training li span {
+    font-weight: bold;
+}
+.training-spec {
+    background-color: #efefef;
+    text-align: center;
+    padding: 2em 20% 3em;
+    margin-top: 3em;
+    margin-bottom: -3em;
+}
+.training-spec p, .training-spec h4 {
+    text-align: left;
+}
+.training-spec h4 {
+    text-transform: uppercase;
 }
 
 /* find us */
@@ -207,10 +240,27 @@ margin-bottom: 2.5em;
 }
 .l-price table {
     width: 100%;
-    font-weight: bold; 
 }
 .l-price td {
     padding: 0 2% 0 2%;
+}
+.l-price .price-details {
+    width: 80%;
+}
+.l-price .price-price {
+    width: 20%;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #aaa;
+    font-weight: bold; 
+}
+.l-price .price-details-subtitle {
+    font-family: 'venera';
+    color: #085768;
+    margin: 0;
+}
+.l-price td.price-price {
+    text-align: center;
 }
 .l-price th {
     text-align: left;
@@ -225,6 +275,9 @@ margin-bottom: 2.5em;
     text-transform: uppercase;
     background-color: gray;
     font-weight: normal;
+}
+.l-price .price-categories {
+    margin-bottom: 3em;
 }
 
 /* contact */
@@ -440,6 +493,12 @@ input.l-contact-input-inline {
     font-size: 1.8em;
     color: #085768;
 }
+.l-findus .findus-title{
+    padding: 0 0 1em 0;
+    font-family: 'venera';
+    font-size: 1.8em;
+    color: #085768;
+}
 .main-subtitle {
     font-family: 'venera';
     font-size: 1.1em;
@@ -491,6 +550,9 @@ input.l-contact-input-inline {
 @media (max-width: 399px) {
     .l-contact .main-center {
         font-size: 0.8em;
+    }
+    .main-title {
+        font-size: 1.5em;
     }
 }
 /* Constrained */
@@ -562,6 +624,7 @@ input.l-contact-input-inline {
     margin-left: -10px;
 }
 .footer-contact {
+    padding-top: .8em;
     display: block;
 }
 .l-footer .icon-contact {
@@ -634,7 +697,7 @@ input.l-contact-input-inline {
 
 /* Stays */
 .l-constrained .l-learning .l-main{
-    margin: -9% 0 0;
+    margin: -6% 0 0;
 }
 .stays-offers {
     text-align: center;
@@ -740,7 +803,7 @@ input.l-contact-input-inline {
 
 
 /* form */
-.form-title {
+.page-title {
     padding-top: 7%;
     text-transform: uppercase;
     font-family: 'venera';

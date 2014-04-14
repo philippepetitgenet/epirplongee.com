@@ -1,0 +1,1948 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "16877",
+"files": {
+	"\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1226,
+		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/centre.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/centre.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/contact.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/34gs-queries.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/34gs-queries.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/34gs.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/34gs.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/flexslider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/flexslider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/responsivemobilemenu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/responsivemobilemenu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/slicknav.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/slicknav.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/exploration.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/exploration.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/form\/envoi-form-inscription.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/form\/envoi-form-inscription.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/form\/envoi-form.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/form\/envoi-form.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/formation-ffessm.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/formation-ffessm.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/formation-padi.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/formation-padi.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/formations.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/formations.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/ambiance-plongeur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61775,
+		"inputAbbreviatedPath": "\/img\/ambiance-plongeur.jpg",
+		"outputAbbreviatedPath": "\/img\/ambiance-plongeur.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/background.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400506,
+		"inputAbbreviatedPath": "\/img\/background.jpg",
+		"outputAbbreviatedPath": "\/img\/background.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7156,
+		"inputAbbreviatedPath": "\/img\/bad.png",
+		"outputAbbreviatedPath": "\/img\/bad.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bapteme-plongee-corse.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144191,
+		"inputAbbreviatedPath": "\/img\/bapteme-plongee-corse.jpg",
+		"outputAbbreviatedPath": "\/img\/bapteme-plongee-corse.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bascule.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186098,
+		"inputAbbreviatedPath": "\/img\/bascule.jpg",
+		"outputAbbreviatedPath": "\/img\/bascule.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bateau.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160935,
+		"inputAbbreviatedPath": "\/img\/bateau.jpg",
+		"outputAbbreviatedPath": "\/img\/bateau.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bombardier.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71017,
+		"inputAbbreviatedPath": "\/img\/bombardier.jpg",
+		"outputAbbreviatedPath": "\/img\/bombardier.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bungalow-camping-oliviers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96296,
+		"inputAbbreviatedPath": "\/img\/bungalow-camping-oliviers.jpg",
+		"outputAbbreviatedPath": "\/img\/bungalow-camping-oliviers.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/calanque-ile-rousse.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73560,
+		"inputAbbreviatedPath": "\/img\/calanque-ile-rousse.jpg",
+		"outputAbbreviatedPath": "\/img\/calanque-ile-rousse.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/carte-explorations.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 168997,
+		"inputAbbreviatedPath": "\/img\/carte-explorations.jpg",
+		"outputAbbreviatedPath": "\/img\/carte-explorations.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/chambres-escale-hotel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44866,
+		"inputAbbreviatedPath": "\/img\/chambres-escale-hotel.jpg",
+		"outputAbbreviatedPath": "\/img\/chambres-escale-hotel.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/chapon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 218126,
+		"inputAbbreviatedPath": "\/img\/chapon.jpg",
+		"outputAbbreviatedPath": "\/img\/chapon.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/congre.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175300,
+		"inputAbbreviatedPath": "\/img\/congre.jpg",
+		"outputAbbreviatedPath": "\/img\/congre.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dauphin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58976,
+		"inputAbbreviatedPath": "\/img\/dauphin.jpg",
+		"outputAbbreviatedPath": "\/img\/dauphin.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/doris.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202811,
+		"inputAbbreviatedPath": "\/img\/doris.jpg",
+		"outputAbbreviatedPath": "\/img\/doris.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eglise-ile-rousse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42007,
+		"inputAbbreviatedPath": "\/img\/eglise-ile-rousse.png",
+		"outputAbbreviatedPath": "\/img\/eglise-ile-rousse.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eglise-ile-rousse2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49801,
+		"inputAbbreviatedPath": "\/img\/eglise-ile-rousse2.png",
+		"outputAbbreviatedPath": "\/img\/eglise-ile-rousse2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/epir-algeco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78713,
+		"inputAbbreviatedPath": "\/img\/epir-algeco.jpg",
+		"outputAbbreviatedPath": "\/img\/epir-algeco.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/epir-bateau.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68874,
+		"inputAbbreviatedPath": "\/img\/epir-bateau.jpg",
+		"outputAbbreviatedPath": "\/img\/epir-bateau.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/epir-materiel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83776,
+		"inputAbbreviatedPath": "\/img\/epir-materiel.jpg",
+		"outputAbbreviatedPath": "\/img\/epir-materiel.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/exploration.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84056,
+		"inputAbbreviatedPath": "\/img\/exploration.png",
+		"outputAbbreviatedPath": "\/img\/exploration.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/explorations.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72673,
+		"inputAbbreviatedPath": "\/img\/explorations.png",
+		"outputAbbreviatedPath": "\/img\/explorations.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/école-de plongée.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7667,
+		"inputAbbreviatedPath": "\/img\/école-de plongée.jpg",
+		"outputAbbreviatedPath": "\/img\/école-de plongée.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/famille.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143131,
+		"inputAbbreviatedPath": "\/img\/famille.jpg",
+		"outputAbbreviatedPath": "\/img\/famille.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/flabelline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94003,
+		"inputAbbreviatedPath": "\/img\/flabelline.jpg",
+		"outputAbbreviatedPath": "\/img\/flabelline.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Fond-11 copie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56644,
+		"inputAbbreviatedPath": "\/img\/Fond-11 copie.jpg",
+		"outputAbbreviatedPath": "\/img\/Fond-11 copie.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/formation-enfant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60513,
+		"inputAbbreviatedPath": "\/img\/formation-enfant.jpg",
+		"outputAbbreviatedPath": "\/img\/formation-enfant.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/formation-enfant.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234520,
+		"inputAbbreviatedPath": "\/img\/formation-enfant.png",
+		"outputAbbreviatedPath": "\/img\/formation-enfant.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/formation-ffessm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61212,
+		"inputAbbreviatedPath": "\/img\/formation-ffessm.jpg",
+		"outputAbbreviatedPath": "\/img\/formation-ffessm.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/formation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73572,
+		"inputAbbreviatedPath": "\/img\/formation.png",
+		"outputAbbreviatedPath": "\/img\/formation.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/formations.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51591,
+		"inputAbbreviatedPath": "\/img\/formations.png",
+		"outputAbbreviatedPath": "\/img\/formations.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/girelle-paon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178667,
+		"inputAbbreviatedPath": "\/img\/girelle-paon.jpg",
+		"outputAbbreviatedPath": "\/img\/girelle-paon.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/goeland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114547,
+		"inputAbbreviatedPath": "\/img\/goeland.jpg",
+		"outputAbbreviatedPath": "\/img\/goeland.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/good.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7259,
+		"inputAbbreviatedPath": "\/img\/good.png",
+		"outputAbbreviatedPath": "\/img\/good.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hotel-escale.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87343,
+		"inputAbbreviatedPath": "\/img\/hotel-escale.jpg",
+		"outputAbbreviatedPath": "\/img\/hotel-escale.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ile-rousse-calanque-phare.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 233985,
+		"inputAbbreviatedPath": "\/img\/ile-rousse-calanque-phare.jpg",
+		"outputAbbreviatedPath": "\/img\/ile-rousse-calanque-phare.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Ile-rousse-calanque.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66038,
+		"inputAbbreviatedPath": "\/img\/Ile-rousse-calanque.jpg",
+		"outputAbbreviatedPath": "\/img\/Ile-rousse-calanque.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ile-rousse-eglise-slider.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132343,
+		"inputAbbreviatedPath": "\/img\/ile-rousse-eglise-slider.jpg",
+		"outputAbbreviatedPath": "\/img\/ile-rousse-eglise-slider.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ile-rousse-phare.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90764,
+		"inputAbbreviatedPath": "\/img\/ile-rousse-phare.jpg",
+		"outputAbbreviatedPath": "\/img\/ile-rousse-phare.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ile-rousse-pietra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58150,
+		"inputAbbreviatedPath": "\/img\/ile-rousse-pietra.jpg",
+		"outputAbbreviatedPath": "\/img\/ile-rousse-pietra.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ile-rousse.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172105,
+		"inputAbbreviatedPath": "\/img\/ile-rousse.jpg",
+		"outputAbbreviatedPath": "\/img\/ile-rousse.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-authorized-PADI-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20646,
+		"inputAbbreviatedPath": "\/img\/logo-authorized-PADI-small.jpg",
+		"outputAbbreviatedPath": "\/img\/logo-authorized-PADI-small.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-authorized-PADI.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37492,
+		"inputAbbreviatedPath": "\/img\/logo-authorized-PADI.jpg",
+		"outputAbbreviatedPath": "\/img\/logo-authorized-PADI.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-ffessm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16541,
+		"inputAbbreviatedPath": "\/img\/logo-ffessm.jpg",
+		"outputAbbreviatedPath": "\/img\/logo-ffessm.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-padi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28196,
+		"inputAbbreviatedPath": "\/img\/logo-padi.jpg",
+		"outputAbbreviatedPath": "\/img\/logo-padi.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3019,
+		"inputAbbreviatedPath": "\/img\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/map.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 168258,
+		"inputAbbreviatedPath": "\/img\/map.jpg",
+		"outputAbbreviatedPath": "\/img\/map.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/meduse.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37982,
+		"inputAbbreviatedPath": "\/img\/meduse.jpg",
+		"outputAbbreviatedPath": "\/img\/meduse.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/merou-ile-rousse.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89698,
+		"inputAbbreviatedPath": "\/img\/merou-ile-rousse.jpg",
+		"outputAbbreviatedPath": "\/img\/merou-ile-rousse.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/murene-crevette.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128078,
+		"inputAbbreviatedPath": "\/img\/murene-crevette.jpg",
+		"outputAbbreviatedPath": "\/img\/murene-crevette.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/murene.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204317,
+		"inputAbbreviatedPath": "\/img\/murene.jpg",
+		"outputAbbreviatedPath": "\/img\/murene.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Niveaux-1 copie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83776,
+		"inputAbbreviatedPath": "\/img\/Niveaux-1 copie.jpg",
+		"outputAbbreviatedPath": "\/img\/Niveaux-1 copie.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Niveaux-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68874,
+		"inputAbbreviatedPath": "\/img\/Niveaux-1.jpg",
+		"outputAbbreviatedPath": "\/img\/Niveaux-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/oliviers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89270,
+		"inputAbbreviatedPath": "\/img\/oliviers.jpg",
+		"outputAbbreviatedPath": "\/img\/oliviers.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/padi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28196,
+		"inputAbbreviatedPath": "\/img\/padi.jpg",
+		"outputAbbreviatedPath": "\/img\/padi.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/palanquee-bleu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106687,
+		"inputAbbreviatedPath": "\/img\/palanquee-bleu.jpg",
+		"outputAbbreviatedPath": "\/img\/palanquee-bleu.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/phare-revellata.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135185,
+		"inputAbbreviatedPath": "\/img\/phare-revellata.jpg",
+		"outputAbbreviatedPath": "\/img\/phare-revellata.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/photographe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140597,
+		"inputAbbreviatedPath": "\/img\/photographe.jpg",
+		"outputAbbreviatedPath": "\/img\/photographe.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/picto-centre.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5441,
+		"inputAbbreviatedPath": "\/img\/picto-centre.png",
+		"outputAbbreviatedPath": "\/img\/picto-centre.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/place-marche-ile-rousse.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91508,
+		"inputAbbreviatedPath": "\/img\/place-marche-ile-rousse.jpg",
+		"outputAbbreviatedPath": "\/img\/place-marche-ile-rousse.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plongee-couple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169450,
+		"inputAbbreviatedPath": "\/img\/plongee-couple.jpg",
+		"outputAbbreviatedPath": "\/img\/plongee-couple.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plongee-enfant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133344,
+		"inputAbbreviatedPath": "\/img\/plongee-enfant.jpg",
+		"outputAbbreviatedPath": "\/img\/plongee-enfant.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Plongee_couple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169450,
+		"inputAbbreviatedPath": "\/img\/Plongee_couple.jpg",
+		"outputAbbreviatedPath": "\/img\/Plongee_couple.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plongee_enfant_slider.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136443,
+		"inputAbbreviatedPath": "\/img\/plongee_enfant_slider.jpg",
+		"outputAbbreviatedPath": "\/img\/plongee_enfant_slider.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plongeur-bleu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101402,
+		"inputAbbreviatedPath": "\/img\/plongeur-bleu.jpg",
+		"outputAbbreviatedPath": "\/img\/plongeur-bleu.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plongeur-explo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43107,
+		"inputAbbreviatedPath": "\/img\/plongeur-explo.jpg",
+		"outputAbbreviatedPath": "\/img\/plongeur-explo.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plongeur-pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134528,
+		"inputAbbreviatedPath": "\/img\/plongeur-pro.png",
+		"outputAbbreviatedPath": "\/img\/plongeur-pro.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plongeur-pro2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92982,
+		"inputAbbreviatedPath": "\/img\/plongeur-pro2.png",
+		"outputAbbreviatedPath": "\/img\/plongeur-pro2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/plongeur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95880,
+		"inputAbbreviatedPath": "\/img\/plongeur.jpg",
+		"outputAbbreviatedPath": "\/img\/plongeur.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pro-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52536,
+		"inputAbbreviatedPath": "\/img\/pro-1.png",
+		"outputAbbreviatedPath": "\/img\/pro-1.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73662,
+		"inputAbbreviatedPath": "\/img\/pro.png",
+		"outputAbbreviatedPath": "\/img\/pro.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Sans-titre-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 267014,
+		"inputAbbreviatedPath": "\/img\/Sans-titre-1.jpg",
+		"outputAbbreviatedPath": "\/img\/Sans-titre-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sejour-groupe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51117,
+		"inputAbbreviatedPath": "\/img\/sejour-groupe.png",
+		"outputAbbreviatedPath": "\/img\/sejour-groupe.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sejour-groupe1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123225,
+		"inputAbbreviatedPath": "\/img\/sejour-groupe1.png",
+		"outputAbbreviatedPath": "\/img\/sejour-groupe1.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sejour-groupe2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140847,
+		"inputAbbreviatedPath": "\/img\/sejour-groupe2.png",
+		"outputAbbreviatedPath": "\/img\/sejour-groupe2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sejour-individuel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66735,
+		"inputAbbreviatedPath": "\/img\/sejour-individuel.png",
+		"outputAbbreviatedPath": "\/img\/sejour-individuel.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sejour-individuel2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104688,
+		"inputAbbreviatedPath": "\/img\/sejour-individuel2.png",
+		"outputAbbreviatedPath": "\/img\/sejour-individuel2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sejour-pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58415,
+		"inputAbbreviatedPath": "\/img\/sejour-pro.png",
+		"outputAbbreviatedPath": "\/img\/sejour-pro.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sejours.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55758,
+		"inputAbbreviatedPath": "\/img\/sejours.png",
+		"outputAbbreviatedPath": "\/img\/sejours.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-gradient.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33245,
+		"inputAbbreviatedPath": "\/img\/slide-gradient.png",
+		"outputAbbreviatedPath": "\/img\/slide-gradient.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14795,
+		"inputAbbreviatedPath": "\/img\/sprite.png",
+		"outputAbbreviatedPath": "\/img\/sprite.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tarifs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281604,
+		"inputAbbreviatedPath": "\/img\/tarifs.jpg",
+		"outputAbbreviatedPath": "\/img\/tarifs.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Teinte-Saturation-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78713,
+		"inputAbbreviatedPath": "\/img\/Teinte-Saturation-1.jpg",
+		"outputAbbreviatedPath": "\/img\/Teinte-Saturation-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tour-genoise-ilerousse.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194214,
+		"inputAbbreviatedPath": "\/img\/tour-genoise-ilerousse.jpg",
+		"outputAbbreviatedPath": "\/img\/tour-genoise-ilerousse.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/transparent.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1434,
+		"inputAbbreviatedPath": "\/img\/transparent.png",
+		"outputAbbreviatedPath": "\/img\/transparent.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/inscription.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inscription.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/jquery.flexslider-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.flexslider-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.flexslider-min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.slicknav.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.slicknav.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.slicknav.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/main.js",
+		"outputAbbreviatedPath": "\/js\/min\/main-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/plugins.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/plugins.js",
+		"outputAbbreviatedPath": "\/js\/min\/plugins-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/responsivemobilemenu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/responsivemobilemenu.js",
+		"outputAbbreviatedPath": "\/js\/min\/responsivemobilemenu-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/jquery-1.10.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.10.2.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery-1.10.2.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/modernizr-2.6.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/modernizr-2.6.2.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/modernizr-2.6.2.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/nous-trouver.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/nous-trouver.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/plongee-pro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plongee-pro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejour-pro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejour-pro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours-famille1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours-famille1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours-famille2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours-famille2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours-groupe.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours-groupe.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours-groupe1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours-groupe1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours-groupe2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours-groupe2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours-individuel1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours-individuel1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours-individuel2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours-individuel2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours-particuliers.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours-particuliers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/sejours.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sejours.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/taifs-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/taifs-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/tarifs.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tarifs.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Philippe Petitgenet",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "epirplongee.com",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "compass_darkGray"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no-unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptOutputSuffix": "-ck",
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"gcl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onevar": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"smarttabs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"trailing": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 5,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptNoResolve": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}
