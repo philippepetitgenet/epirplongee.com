@@ -356,6 +356,17 @@ input.l-contact-input-inline {
     display: block;
 }
 
+/* registration */
+
+.registration {
+    background-color: #f8f5f8;
+    background-image: url(../img/merou-ile-rousse.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 3em !important;
+    margin-bottom: -3em !important;
+}
+
 /* Header */
 .l-header {
     height: 9em;
@@ -551,10 +562,19 @@ input.l-contact-input-inline {
     .l-contact .main-center {
         font-size: 0.8em;
     }
+}
+@media (max-width: 481px) {
     .main-title {
         font-size: 1.5em;
     }
 }
+@media (max-width: 641px) {
+    .main-title {
+        font-size: 1.3em;
+    }
+}
+
+
 /* Constrained */
 .l-constrained {
     max-width: 64em; /* 1024/16 */
@@ -801,6 +821,14 @@ input.l-contact-input-inline {
     background-color: #7E7E7E;
 }
 
+/* formatted */
+.l-single .formatted h3{
+    font-family: 'venera';
+    font-size: 1.1em;
+    color: #085768;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
 
 /* form */
 .page-title {
