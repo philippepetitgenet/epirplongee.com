@@ -76,13 +76,13 @@
                     </header><!-- header-->
 
                     <div class="l-contact l-main clearfix container">
-                        <div class= "col_1 contact-background">
+                        <div class= "col_1">
                             <h1 class="page-title">inscription</h1>
                             <div class="main-center">
                                 <div class="contact-social">
                                     <i class="icon icon-social-big"></i>
                                 </div>
-                                <form action="form/envoi-form-inscription.php" method="post" ENCTYPE=\"multipart/form-data\" name="envoi-form" id="formulaire">
+                                <form action="form/envoi-form-inscription2.php" method="post" ENCTYPE=\"multipart/form-data\" name="envoi-form" id="formulaire">
                                     <label for="firstname">Nom* </label>
                                     <input type="text" required name="nom" id="nom">
                                     <label for="name">Prenom* </label>
@@ -100,10 +100,35 @@
                                     <label for="firstname">Téléphone*</label>
                                     <input type='tel' required name="tel" id="tel">
                                     <h2 class="main-subtitle">Choisissez votre séjour :</h2>
-                                    <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-groupe1"><p class="contact-inline">Séjour GROUPE 1</p>
-                                    <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-groupe2"><p class="contact-inline">Séjour GROUPE 2</p>
-                                    <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-individuel1"><p class="contact-inline">Séjour INDIVIDUEL 1</p>
-                                    <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-individuel2"><p class="contact-inline">Séjour INDIVIDUEL 2</p>
+                                    <div class="marginbottom3 ofa ">
+                                        <h3 class="main-subtitle2 text-left">Groupes</h3>
+                                        <div class="col_2">
+                                            <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-groupe1"><p class="contact-inline">Séjour GROUPE 1</p>
+                                        </div>
+                                        <div class="col_2">
+                                            <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-groupe2"><p class="contact-inline">Séjour GROUPE 2</p>
+                                        </div>
+                                    </div>
+                                    <div class="marginbottom3 ofa ">
+                                        <h3 class="main-subtitle2 text-left">Individuels</h3>
+                                        <div class="col_2">
+                                            <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-individuel1"><p class="contact-inline">Séjour INDIVIDUEL 1</p>
+                                        </div>
+                                        <div class="col_2">
+                                            <input class="l-contact-input-inline" type="radio" name="stay" value="sejour-individuel2"><p class="contact-inline">Séjour INDIVIDUEL 2</p>
+                                        </div>
+                                    </div>
+                                    <label for="stay-date">Date de début de votre séjour </label>
+                                    <input type="date" name="stay-date" id="stay-date">
+                                    <label for="length">Durée de votre séjour</label>
+                                    <div class="col_2 marginbottom3">
+                                        <input class="l-contact-input-inline" type="radio" name="length" value="7-nuits">7 nuits>
+                                    </div>
+                                    <div class="col_2 marginbottom3">
+                                        <input class="l-contact-input-inline" type="radio" name="length" value="14-nuits">14 nuits>
+                                    </div>
+                                    <label for="additional-information">Renseignements complémentaires</label>
+                                    <textarea <rows="14" name="additional-information" id="additional-information" cols="32"></textarea>
                                     <hr />
                                     <input required class="l-contact-input-inline" type="checkbox" name="certificate" value="certificate"><pclass="contact-inline">Je reconnais avoir pris connaissance des conditions particulières de ventes, et confirme mon inscription et celles des personnes mentionnées dans ce formulaire.</p>
                                     <input class="btn" type="submit" name="envoyer" id="envoyer" value="GO !">

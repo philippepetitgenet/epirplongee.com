@@ -302,7 +302,7 @@ margin-bottom: 2.5em;
     display: block;
     width: 100%;
     height: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     -webkit-border-radius: 3px; /* border-radius */
     -moz-border-radius: 3px;
     border-radius: 3px; 
@@ -354,6 +354,9 @@ input.l-contact-input-inline {
 }
 .l-contact input.btn {
     display: block;
+}
+.l-contact .contact-inline {
+    margin-top: 0;
 }
 
 /* registration */
@@ -497,7 +500,7 @@ input.l-contact-input-inline {
 
 /* Main */
 .l-main {
-    padding: 0 1.5em;
+    padding: 0 1.5em 2em 1.5em;
 }
 .main-title {
     font-family: 'venera';
@@ -541,7 +544,7 @@ input.l-contact-input-inline {
     margin: auto;
 }
 .main-marginbottom3 {
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
 }
 .main-link {
     color: #66ACAA;
@@ -615,7 +618,6 @@ input.l-contact-input-inline {
     -moz-border-radius-bottomleft: 3px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    margin-top: 3em;
     padding: .5em 2em 1.6em;
     behavior: url(js/PIE.htc);
 }
@@ -727,6 +729,9 @@ input.l-contact-input-inline {
     text-align: left;
     padding-bottom: .5em;
 }
+.stays-offers p.push-subtitle2 {
+    text-align: center;
+}
 .l-stays article {
     margin-bottom: 2em;
 }
@@ -809,8 +814,7 @@ input.l-contact-input-inline {
     background-color: #efefef;
     text-align: center;
     padding: 2em 20% 3em;
-    margin-top: 3em;
-    margin-bottom: -3em;
+    margin-bottom: -1em;
 }
 /* ===============================
  Modules
@@ -846,7 +850,7 @@ input.l-contact-input-inline {
 
 /* Push */
 article.push {
-    margin-bottom: 3em;
+    margin-bottom: 8%;
 }
 .push-img {
     border-radius: 500px;
@@ -1220,4 +1224,7 @@ article.push {
 }
 .text-left {
     text-align: left !important;
+}
+.ofa {
+    overflow: auto;
 }

@@ -1,5 +1,6 @@
 <?php
 
+
 $destinataire = 'resa@epirplongee.com';
 $objet .= "\n" . 'inscription à un séjour via le site epirplongee.com';
 
@@ -19,6 +20,9 @@ $message .= "\n" . 'code postal : ' . $_POST['code'];
 $message .= "\n" . 'expediteur : ' . $_POST['expediteur'];
 $message .= "\n" . 'telephone : ' . $_POST['tel'];
 $message .= "\n" . 'sejour choisi : ' . $_POST['stay'];
+$message .= "\n" . 'date de debut du sejour : ' . $_POST['stay-date'];
+$message .= "\n" . 'duree du sejour : ' . $_POST['length'];
+$message .= "\n" . 'renseignements complementaires: ' . $_POST['additional-information'];
 $message .= "\n" . 'certificat cgv ok : ' . $_POST['certificate'];
 
 
